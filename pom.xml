@@ -31,6 +31,13 @@
 
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.uma.jmetal/jmetal-algorithm -->
+        <dependency>
+            <groupId>org.uma.jmetal</groupId>
+            <artifactId>jmetal-algorithm</artifactId>
+            <version>5.0</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.uma.jmetal/jmetal-core -->
         <dependency>
             <groupId>org.uma.jmetal</groupId>
