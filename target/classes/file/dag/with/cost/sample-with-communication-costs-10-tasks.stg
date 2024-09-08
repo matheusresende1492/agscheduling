@@ -1,0 +1,62 @@
+         10
+          0          0          0
+          1       2000          1
+                                           0          0  
+          2       8000          1
+                                           0          0
+          3       8000          1
+                                           0          0
+          4       7000          1
+                                           0          0
+          5       3000          3
+                                           2        182
+                                           3        809
+                                           4        493
+          6      13000          1
+                                           2        244
+          7      13000          2
+                                           1        444
+                                           4        270
+          8      12000          3
+                                           1        567
+                                           2        309
+                                           6       1354
+          9      15000          2
+                                           1        548
+                                           5        291
+         10      19000          3
+                                           1        550
+                                           2        216
+                                           7       1199
+         11          0          3
+                                           8          0
+                                           9          0
+                                          10          0
+# Standard Task Graph Set Project
+# Random Task Graph 10//sample.stg
+# Precedence constraints generator : layrprob
+#   Random Seed       : 14343
+#   Tasks             : 10 (+dummy tasks : 2)
+#   Layers            : 3
+#   Max. Layer Width  : 4
+#   Min. Layer Width  : 3
+#   Ave. Layer Width  : 3.333333
+#   Edges             : 14 / 33 (+dummy edges : 7)
+#   Max. Predecessors : 3
+#   Min. Predecessors : 0
+#   Ave. Predecessors : 1.400000
+#   Probability       : 0.500000 (Real : 0.424242)
+# Task processing time generator : unifproc
+#   Random Seed       : 14344
+#   Max. Proc. Time   : 20
+#   Min. Proc. Time   : 3
+#   Ave. Proc. Time   : 10.000000 (Real : 11.800000)
+# CP Length           : 52
+# Parallelism         : 2.269231
+# Data transfer time generator: normdt2
+# Random Seed         : 14343
+# CCR                 : 0.100000 (Real : 0.063356)
+# Standard Deviation  : 0.200000 (*Ave.Proc.Time = 2360.000000)
+# Max. DT. Time       : 1354
+# Max. DT. Time       : 182
+# Max. DT. Time       : 534.000000

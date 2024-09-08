@@ -1,0 +1,48 @@
+#########################################################################################################################################################
+# To perform mathematical operations between objectives of different magnitudes, a normalization step is needed first. This is quite simple: for each 	#
+# GA objective we take the highest value that has ever appeared in the base and classify it as 1. We take the smallest value and classify it as 0. All 	#
+# other values we assign a value between 0 and 1 according to the value of it, the maximum and the minimum. After doing this for all objectives, the 	#
+# values will all have the same magnitude.																												#
+# Formula:																																				#
+# 	Normalized value = difference to the minimum / difference between extremes																			#
+# Example:																																				#
+# 	Maximum value: 10																																	#
+# 	Minimum value: 5																																	#
+# 	Value of a current goal: 6																															#
+# The calculation looks like this:																														#
+# 	Difference to minimum = 6 - 5 = 1																													#
+# 	Difference between extremes = 10 - 5 = 5																											#
+# 	Normalized value = 1 / 5 = 0.2																														#
+# Fill in the values as described in the README.conf file.																								#
+#########################################################################################################################################################
+#
+#Field Name: maxObjectiveValue1. Type: double. Description: enter the maximum value for objective 1.
+maxObjectiveValue1:double:0
+#
+#Field Name: minObjectiveValue1. Type: double. Description: enter the minimum value for objective 1.
+minObjectiveValue1:double:0
+#
+#Field Name: maxObjectiveValue2. Type: double. Description: enter the maximum value for objective 2.
+maxObjectiveValue2:double:0
+#
+#Field Name: minObjectiveValue2. Type: double. Description: enter the minimum value for objective 2.
+minObjectiveValue2:double:0
+#
+#Field Name: maxObjectiveValue3. Type: double. Description: enter the maximum value for objective 3.
+maxObjectiveValue3:double:0
+#
+#Field Name: minObjectiveValue3. Type: double. Description: enter the minimum value for objective 3.
+minObjectiveValue3:double:0
+#
+#Field Name: maxObjectiveValue4. Type: double. Description: enter the maximum value for objective 4.
+maxObjectiveValue4:double:0
+#
+#Field Name: minObjectiveValue4. Type: double. Description: enter the minimum value for objective 4.
+minObjectiveValue4:double:0
+#
+#Field Name: maxObjectiveValue5. Type: double. Description: enter the maximum value for objective 5.
+maxObjectiveValue5:double:0
+#
+#Field Name: minObjectiveValue5. Type: double. Description: enter the minimum value for objective 5.
+minObjectiveValue5:double:0
+#
